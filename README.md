@@ -2,8 +2,8 @@
 
 Sipgate offers a push API to all customers. With this api, all relevant telephony events such as incoming or outgoing calls can be sent via HTTP requsts to any customer system. 
 
-To ensure that no unwanted requests are processed, requests can use a signature provided with each request to ensure the authenticity of the request. 
-The signature is supplied via the X-Sipgate-Signature header. The complete body of the respective request is signed. 
+To ensure that no unwanted requests are processed, customers can use a signature provided with each request to ensure the authenticity of the request. 
+The signature is supplied via the X-Sipgate-Signature header and signs the complete body of the respective request.
 
 This project aims at verifying sipgate push-api requests in a simple and satisfying way. 
 
